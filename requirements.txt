@@ -3,4 +3,4 @@ numpy
 streamlit
 plotly
 python-dateutil
-openpyx1
+openpyxl
