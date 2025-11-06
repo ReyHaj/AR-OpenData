@@ -54,5 +54,19 @@ AR-OpenData/
 - DSO, ADD, CEI, On-time %, Aging buckets (0-30/31-60/61-90/>90)
 - Top delinquent customers, monthly DSO trend
 - Baseline model: predict `OnTime` or `DaysLate`
+---
+
+🚀 Quickstart
+1. Install dependencies
+pip install -r requirements.txt
+
+2. Run data preparation
+python read_excel_test.py
+python data_cleaning_test.py
+python feature_engineering_test.py
+python kpi_analysis_test.py
+
+3. Launch dashboard
+streamlit run dashboard_app.py
 
 *Generated on 2025-11-03.*
