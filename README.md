@@ -3,7 +3,7 @@
 ### 🔹 Overview
 Questo progetto analizza dati dei conti da incassare (Accounts Receivable) utilizzando **Python (Pandas)** e li integra in **Microsoft Dynamics 365** come dashboard interattivo per il monitoraggio dei KPI finanziari.
 
----
+
 
 ### ⚙️ Tools & Technologies
 - **Python 3.13**
@@ -11,7 +11,7 @@ Questo progetto analizza dati dei conti da incassare (Accounts Receivable) utili
 - **ERP / BI Integration:** Microsoft Dynamics 365, Power BI
 - **Data Source:** Open dataset (Kaggle / Excel)
 
----
+
 
 ### 🧱 Project Structure
 FBA_365D.PYTHON_AR/
@@ -27,7 +27,7 @@ FBA_365D.PYTHON_AR/
 ├── README.md # Documentation
 
 
----
+
 
 ### 📊 Project Steps
 1. **Data Loading:** Importazione dei dati Excel in Pandas.  
@@ -36,7 +36,7 @@ FBA_365D.PYTHON_AR/
 4. **KPI Calculation:** Calcolo DSO, % pagamenti puntuali, importi aperti.  
 5. **Dashboard:** Visualizzazione interattiva con Streamlit e Power BI.  
 
----
+
 
 ### 📈 Main KPIs
 | KPI | Descrizione |
@@ -46,7 +46,7 @@ FBA_365D.PYTHON_AR/
 | **Average Delay** | Ritardo medio dei pagamenti |
 | **Outstanding Total** | Totale importi ancora da incassare |
 
----
+
 
 ### 🚀 How to Run Locally
 1. Installa i pacchetti:
@@ -61,9 +61,7 @@ streamlit run dashboard_app.py
 💾 Output
 
 data/processed/AR_Clean_Features.xlsx → Dati puliti
-
 data/processed/AR_KPI_Summary.xlsx → KPI calcolati
-
 Dashboard: http://localhost:8501
 
 👩‍💻 Author
