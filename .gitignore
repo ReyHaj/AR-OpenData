@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Data
+data/interim/*
+data/processed/*
+
+# Reports
+reports/final_report.pdf
+dtata/raw/*xlsx
+data/raw/*.xlsx
+data/raw/*.csv
+data/processed/*
+data/interim/*
+.venv/
+.ipynb_checkpoints/
