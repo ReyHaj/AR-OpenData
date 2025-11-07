@@ -1,0 +1,99 @@
+✅ چک‌لیست نهایی پروژه AR Analytics
+✅ 1. ساخت محیط پروژه
+
+ایجاد ساختار پوشه‌ها (data, notebooks, src, dashboards, reports)
+
+نصب Python و تنظیم Interpreter در VS Code
+
+ساخت فایل‌های پایه (read_excel_test.py و دیگر اسکریپت‌ها)
+
+✅ 2. بارگذاری داده‌ها
+
+قرار دادن فایل Excel در مسیر:
+data/raw/
+
+خواندن داده با pandas
+
+نمایش و بررسی اولیه dataframe
+
+✅ 3. پاکسازی داده‌ها (Data Cleaning)
+
+حذف یا پر کردن Missing values
+
+رفع Duplicate ها
+
+استانداردسازی تاریخ‌ها
+
+تبدیل ستون‌ها به فرمت درست
+
+✅ 4. ساخت ستون‌های تحلیلی (Feature Engineering)
+
+DaysLate
+
+OnTimeFlag
+
+Aging Buckets (0–30، 31–60، …)
+
+محاسبه Outstanding Amount
+
+محاسبه KPIs (DSO، ADD، On-Time%)
+
+✅ 5. تولید داده‌های پردازش‌شده
+
+ذخیره خروجی‌ها در:
+data/processed/AR_Clean_Features.xlsx
+data/processed/AR_KPI_Summary.xlsx
+
+✅ 6. ساخت داشبورد Streamlit
+
+ساخت فایل:
+dashboard_app.py
+
+اضافه کردن KPIs، نمودارها، جدول Top Customers
+
+تست اجرای اپ با:
+
+streamlit run dashboard_app.py
+
+✅ 7. ساخت فایل requirements.txt
+
+اضافه کردن پکیج‌ها:
+pandas, numpy, streamlit, plotly, python-dateutil, openpyxl
+
+✅ 8. شروع کار با Git & GitHub
+
+ایجاد ریپوزیتوری
+
+Commit و Push تمام فایل‌ها
+
+حل conflictها در README
+
+اضافه کردن عکس‌ها در /data/image/
+
+✅ 9. دیپلوی داشبورد
+
+اتصال GitHub به Streamlit Cloud
+
+تعریف مسیر اصلی فایل (dashboard_app.py)
+
+رفع ارورهای پکیج‌ها
+
+تنظیم محیط اجرا
+
+موفقیت در Deploy ✅
+
+✅ 10. نهایی‌سازی پروژه
+
+اضافه کردن تصاویر خروجی
+
+کامل کردن README.md شامل:
+
+توضیح پروژه
+
+روش اجرا
+
+لینک Live App
+
+ساختار پروژه
+
+چک نهایی فایل‌ها روی GitHub
