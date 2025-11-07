@@ -64,6 +64,9 @@ data/processed/AR_Clean_Features.xlsx → Dati puliti
 data/processed/AR_KPI_Summary.xlsx → KPI calcolati
 Dashboard: http://localhost:8501
 
+## 🔗 Live Demo (Streamlit App)
+https://ar-opendata-boe7z5qwyvkty3sxloufmp.streamlit.app/
+
 👩‍💻 Author
 
 [REYHANEH HAJILI]
