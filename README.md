@@ -67,6 +67,18 @@ Dashboard: http://localhost:8501
 ## 🔗 Live Demo (Streamlit App)
 https://ar-opendata-boe7z5qwyvkty3sxloufmp.streamlit.app/
 
+
+## 📊 Dashboard Preview
+
+### Invoice Status Distribution  
+![invoice status](image/invoice%20status%20distribution.png)
+
+### Top 10 Customers by Average Delay  
+![top 10 customers](image/top%2010%20costumers%20by%20average%20delay.png)
+
+### Top 10 Customers by Average Delay  
+![account Receivable](image/Accounts%20Receivable%20Analytics%20Dashboard.png)
+
 👩‍💻 Author
 
 [REYHANEH HAJILI]
