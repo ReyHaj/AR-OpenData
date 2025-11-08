@@ -1,0 +1,2 @@
+rows_raw,rows_clean,removed_missing_core,removed_due_before_invoice,removed_negative_amount,removed_duplicates
+900,1,899,0,0,899
